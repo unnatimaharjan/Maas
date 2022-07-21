@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login | Maas</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Montserrat Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	<!--Lora-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+	<!--Open Sans-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!--NAVIGATION BAR-->
+	<nav class="nav-bar">
+		<a href="maas.html" class="title">M A A S</a>
+
+		<div class="contentsOfNavBar">
+			<a href="maas.html">Home</a>
+			<a href="books.html">Books</a>
+			<a href="shop.html">Shop</a>
+			<a href="form.html">Form</a>
+			<a href="about.html">About</a>
+			<a href="contacts.html">Contacts</a>
+			<a href="login.html">Login</a>
+		</div>
+		<div style="clear: both;"></div>
+	</nav>
+
+
+
+	<div class="loginForm">
+	<!--Login Form-->
+		<form action="a.php" method="POST" name="myForm" onsubmit="return validateForm()">
+			<fieldset class="loginFieldset">
+				<label><b>Username</b></label>
+				<input type="text" name="username">
+				<br><br>
+				<label><b>Password</b></label>
+				<input type="password" name="password">
+				<br><br>
+				<input type="submit" value="Sign In">
+				<br><br>
+				<p>Don't have an account? <a href="#"><u>Sign up</u></a></p>
+			</fieldset>
+		</form>
+	</div>
+
+
+
+
+	<!--Copyright-->
+	<div class="footer">
+		<p class="copyright">Copyright 2021 | All Rights Reserved</p>
+	</div>
+
+
+
+
+
+	<!--Javascript-->
+	<script type="text/javascript">
+
+		function validateForm(){
+			var username= document.myForm.username.value
+			var password= document.myForm.password.value
+
+			if (username==null || username==""){
+				alert("Username cannot be blank.")
+				return false
+			}
+			else if(password.length<8){
+				alert("Password must be at least 8 characters long.")
+				return false
+			}
+		}
+
+	</script>
+
+</body>
+</html>

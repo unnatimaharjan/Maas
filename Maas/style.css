@@ -1,0 +1,308 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+/*NAVIGATION BAR*/
+
+.nav-bar{
+	border-bottom: 1px solid black;
+	height: 50px;
+}
+
+.nav-bar .title{
+	font-family: Lora;
+	font-size: 35px;
+}
+
+.nav-bar .contentsOfNavBar{
+	float: right;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: Montserrat;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.nav-bar .contentsOfNavBar a{
+	padding-right: 25px;
+}
+
+.nav-bar .contentsOfNavBar a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+/*NEW BOOK UPDATE*/
+.gray-box{
+	background-color: #d1d1d1;
+	margin-top: 30px;
+	height: 450px;
+}
+
+.gray-box .upcomingBook{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.gray-box #info1{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.gray-box .upcomingBook .heading{
+	font-size: 50px;
+	font-family: Lora;
+}
+
+.gray-box .upcomingBook .sub-info{
+	font-family: open sans;
+	font-size: 20px;
+}
+
+.gray-box .upcomingBook .sub-info-link{
+	text-decoration: underline;
+}
+
+.gray-box .upcomingBook .picture{
+	margin-top: 40px;
+}
+
+
+
+
+
+/*About the author*/
+.aboutTheAuthor{
+	margin-top: 50px;
+}
+
+.aboutTheAuthor .sjm{
+	float: left;
+	width: 50%;
+}
+
+.aboutTheAuthor .sjm .heading{
+	font-size: 50px;
+	font-family: Lora;
+}
+
+.aboutTheAuthor .sjm .sub-info{
+	font-family: open sans;
+	font-size: 20px;
+}
+
+
+
+/*Latest Release*/
+.gray-box .latestRelease{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.gray-box #info2{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.gray-box .latestRelease .heading{
+	font-size: 50px;
+	font-family: Lora;
+}
+
+.gray-box .latestRelease .sub-info{
+	font-family: open sans;
+	font-size: 20px;
+}
+
+.gray-box .latestRelease .sub-info-link{
+	text-decoration: underline;
+}
+
+.gray-box .latestRelease .picture{
+	margin-top: 40px;
+}
+
+
+
+
+/*Books By Maas*/
+.books .booksByMaasHeading{
+	font-family: Lora;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.books .bookOptions{
+	float: left;
+	width: 20%;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+.books .bookOptions .bookTitle{
+	font-family: Lora;
+	font-size: 20px;
+}
+
+.books .bookOptions .goodreads{
+	font-family: Open Sans;
+}
+
+
+
+
+/*Copyright*/
+.footer{
+	background-color: #d1d1d1;
+	height: 60px;
+	padding-bottom: 0;
+}
+
+.copyright{
+	color: gray;
+	margin-left: 100px;
+	padding-top: 20px;
+}
+
+
+
+
+
+/*Books PAge*/
+.booksPageTitle{
+	font-family: Lora;
+	font-size: 55px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+.titleOfBookSeries{
+	font-family: Lora;
+	font-size: 25px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	height: 50px;
+	padding-top: 20px;
+}
+
+.bookSeries{
+	text-align: center;
+	float: left;
+	width: 20%;
+	margin-left: 0px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.bookSeries .subOfEachBook{
+	color: dimgray;
+	font-family: open sans;
+	font-size: 15px;
+}
+
+.bookSeries .nameOfEachBook{
+	font-family: open sans;
+	font-size: 20px;
+}
+
+.bookSeries a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/*Shop Page*/
+.shopMerch{
+	font-family: Lora;
+	font-size: 40px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+
+
+
+/*Form Page*/
+.formTitle{
+	font-family: Lora;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.mainForm{
+	font-family: open sans;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+/*About Page*/
+.moreAboutSarah{
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 30px;
+}
+
+
+
+
+/*Contacts Page*/
+.contactHeading{
+	text-align: center;
+	font-family: Lora;
+	font-size: 50px;
+}
+
+.contactInfo{
+	text-align: center;
+	font-family: Open Sans;
+}
+
+
+/*Login Page*/
+.loginForm{
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 240px;
+	padding-bottom: 240px;
+	font-family: open sans;
+	font-size: 20px;
+	background-image: url(img/wallpaper.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.loginFieldset{
+	background-color: white;
+	padding-top: 20px;
+}
+
